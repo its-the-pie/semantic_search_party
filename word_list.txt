@@ -540,9 +540,6 @@
 542.British
 543.encourage
 544.lot
-545.lot
-546.lot
-547.lot
 548.argument
 549.by
 550.once
@@ -550,7 +547,6 @@
 552.brain
 553.feature
 554.afternoon
-555.AM
 556.weekend
 557.dozen
 558.possibility
@@ -606,7 +602,6 @@
 608.tradition
 609.winter
 610.village
-611.Soviet
 612.refuse
 613.sales
 614.roll
