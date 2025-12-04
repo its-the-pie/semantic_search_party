@@ -73,16 +73,19 @@ def semantic_similarity(doc1, guess, nlp):
         return 0.0
 
 def tk_print(msg, output_box):
+    msg = msg.strip()
     output_box.configure(state="normal")
     output_box.insert(tk.END, msg + "\n")
     output_box.see(tk.END)
     output_box.configure(state="disabled")
 
+
 def start_round(data, nlp, output_box, frame):
     if "restart_button" in data and data["restart_button"]:
         data["restart_button"].destroy()
         data["restart_button"] = None
-
+     
+        
     output_box.configure(state="normal")
     output_box.delete("1.0", tk.END)
     output_box.insert("1.0", "SEMANTIC SEARCH PARTY\n")
@@ -91,8 +94,7 @@ def start_round(data, nlp, output_box, frame):
     output_box.insert(tk.END, "\n")
     output_box.delete("3.0", tk.END)
     output_box.configure(state="disabled")
-
-    
+  
     if data["level"] > data["NUM_LEVELS"]:
         if data["last_lev"]:
             tk_print(f'Forfeited. The word was: {data["sw"]}', output_box)
@@ -100,10 +102,11 @@ def start_round(data, nlp, output_box, frame):
         tk_print(f'Total Points: {data["tp"]} / {data["MAX_POINTS"] * data["NUM_LEVELS"]}', output_box)
         tk_print(f'Total Guesses: {data["tg"]}', output_box)
         tk_print(f'Total Hints Used: {data["th"]}', output_box)
-        tk_print("Wanna play again?", output_box)
-
+        tk_print("To play again press restart", output_box)
+  
         restart_button = Button(frame, text="Restart Game", bg="green", fg="white", font=("Times New Roman", 14), command=lambda: restart(data, nlp, output_box, frame))
         restart_button.grid(row=3, column=0, columnspan=4, sticky="nsew", pady=5, padx=5)
+        data["restart_button"] = restart_button
         return
     
     data["sw"] = choose_word(data["bins"], data["level"])
@@ -117,7 +120,6 @@ def start_round(data, nlp, output_box, frame):
     data["num_guess"] = 0
     data["hints_given"] = set()
     data["letters_given"] = 0
-    data["num_guess"] = 0
     data["restart_button"] = None
     data["last_lev"] = False
 
@@ -127,6 +129,8 @@ def start_round(data, nlp, output_box, frame):
         data["ss_list"].append([word, ss])        
 
     tk_print("-" * 67, output_box)
+    guess_entry.bind("<Return>", lambda e: on_guess(data, nlp, output_box, guess_entry, frame))
+     
     tk_print(f'Level {data["level"]}', output_box)
     tk_print("Start Guessing!!", output_box)
     tk_print("-" * 67, output_box)
@@ -200,7 +204,7 @@ def hints(data, output_box):
     while len(candidates) == 0: 
         upper_bound += 0.05 
         if upper_bound >= 1: 
-            for i in data["ss_list"]: 
+            for word, ss in data["ss_list"]: 
                 if ss > data["max_ss"]: 
                     max_word = word 
                     data["max_ss"] = ss 
@@ -221,7 +225,7 @@ def hints(data, output_box):
     data["hints_given"].add(hint_word)
     data["max_ss"] = hint_ss
     data["rh"] += 1
-    data["rp"] -= 2
+    data["rp"] -= 5
     if data["rp"] < 0:
         data["rp"] = 0
 
@@ -244,14 +248,14 @@ def letter_reveal(data, output_box):
             data["rp"] = 0
         tk_print(f'Letter Reveal: {letters + "_ " * remain}', output_box)
 
-def on_guess(data, nlp, output_box, guess_entry):
+def on_guess(data, nlp, output_box, guess_entry, frame):
     guess = guess_entry.get().strip()
     if not guess or guess == "Enter a word...":
         return
     
     guess_entry.delete(0, tk.END)   
     result = play_round(guess, data, nlp, output_box) 
-    
+   
     if result and result[0] is True: 
         output_box.after(2000, lambda: start_round(data, nlp, output_box, frame))
 
@@ -260,7 +264,7 @@ def on_guess(data, nlp, output_box, guess_entry):
 def on_hint(data, nlp, output_box):
     hints(data, output_box)
 
-def on_forfeit(data, nlp, output_box):
+def on_forfeit(data, nlp, output_box, frame):
     if data["level"] == data["NUM_LEVELS"]:
         data["last_lev"] = True
     else:
@@ -283,6 +287,7 @@ def box(output_box):
 def add_guess(data, output_box, word, ss):
     data["num_guess"] += 1
     num_guess = data["num_guess"]
+
     output_box.configure(state="normal")
 
     if ss < 0.33:
@@ -291,10 +296,11 @@ def add_guess(data, output_box, word, ss):
         color = "orange"
     else:
         color = "green"
+
     if not output_box.tag_names().__contains__(color):
         output_box.tag_configure(color, foreground=color)
 
-    row_txt = f"{num_guess}\t{word}\t{ss:.2f}\n"
+    row_txt = f"{num_guess}\t{word.strip()}\t{ss:.2f}\n"
     output_box.insert("end", row_txt, color)
 
     output_box.tag_configure(color, foreground=color)
@@ -313,7 +319,6 @@ def temp_msg(entry, msg):
         if entry.get() == "":
             entry.insert(0, msg)
             entry.configure(fg="grey")
-    
     entry.bind("<FocusIn>", on_click)
     entry.bind("<FocusOut>", click_out)
 
@@ -347,7 +352,8 @@ if __name__ == "__main__":
         "letters_given": 0, 
         "num_guess": 0, 
         "restart_button": None, 
-        "last_lev": False
+        "last_lev": False,
+        "hs": 0
     }
     
     # tkinter window
@@ -373,23 +379,22 @@ if __name__ == "__main__":
 
     guess_entry = tk.Entry(frame,bg="white", fg="black", font=("Times New Roman", 18), insertbackground="black")
     guess_entry.grid(row=1, column=0, columnspan=2, sticky="ew", pady=(0,5))
-    guess_entry.bind("<Return>", lambda e: on_guess(data, nlp, output_box, guess_entry))
     temp_msg(guess_entry, "Enter a word...")
 
-    guess_button = Button(frame, text="Guess", bg="blue", fg="white", font=("Times New Roman", 18), activebackground="darkblue", activeforeground="white", highlightbackground="blue", highlightthickness=1, command=lambda: on_guess(data, nlp, output_box, guess_entry))
+    guess_button = Button(frame, text="Guess", bg="blue", fg="white", font=("Times New Roman", 18), activebackground="darkblue", activeforeground="white", highlightbackground="blue", highlightthickness=1, command=lambda: on_guess(data, nlp, output_box, guess_entry, frame))
     guess_button.grid(row=1, column=2, columnspan=2, sticky="ew", pady=(0,5))
     
 
-    hint_button = Button(frame, text="Hint (-2)", bg="purple", fg="white", font=("Times New Roman", 14), activebackground="indigo", activeforeground="white", highlightbackground="purple", highlightthickness=1,command=lambda: on_hint(data, nlp, output_box), width=10)
+    hint_button = Button(frame, text="Hint (-5)", bg="purple", fg="white", font=("Times New Roman", 14), activebackground="indigo", activeforeground="white", highlightbackground="purple", highlightthickness=1,command=lambda: on_hint(data, nlp, output_box), width=10)
     hint_button.grid(row=2, column=0, sticky="ew", padx=5, pady=5)
 
-    forfeit_button = Button(frame, text="Forfeit Round", width=10, bg="orange", fg="white", font=("Times New Roman", 14), activebackground="darkorange", activeforeground="white", highlightbackground="orange", highlightthickness=1,command=lambda: on_forfeit(data, nlp, output_box))
+    forfeit_button = Button(frame, text="Forfeit Round", width=10, bg="orange", fg="white", font=("Times New Roman", 14), activebackground="darkorange", activeforeground="white", highlightbackground="orange", highlightthickness=1,command=lambda: on_forfeit(data, nlp, output_box, frame))
     forfeit_button.grid(row=2, column=2, sticky="ew", padx=5, pady=5) 
 
     quit_button = Button(frame, text="Quit", bg="red", fg="white", font=("Times New Roman", 14), activebackground="darkred", activeforeground="white", highlightbackground="red", highlightthickness=1,command=root.destroy, width=10)
     quit_button.grid(row=2, column=3, sticky="ew", padx=5, pady=5) 
 
-    reveal_button = Button(frame, text="Reveal Letter (-5)", bg="green", fg="white", font=("Times New Roman", 14), activebackground="darkgreen", activeforeground="white", highlightbackground="green", highlightthickness=1, command=lambda: letter_reveal(data, output_box), width=10)
+    reveal_button = Button(frame, text="Reveal Letter (-10)", bg="green", fg="white", font=("Times New Roman", 14), activebackground="darkgreen", activeforeground="white", highlightbackground="green", highlightthickness=1, command=lambda: letter_reveal(data, output_box), width=10)
     reveal_button.grid(row=2, column=1, sticky="ew", padx=5, pady=5)
 
     start_round(data, nlp, output_box, frame)

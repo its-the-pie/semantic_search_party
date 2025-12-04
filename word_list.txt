@@ -41,7 +41,6 @@
 43.fire
 44.certainly
 45.seek
-46.per
 47.rest
 48.deal
 49.drop
@@ -810,7 +809,6 @@
 820.demand
 821.learning
 822.bus
-823.hell
 824.dangerous
 825.remind
 826.moral
@@ -1654,7 +1652,6 @@
 1666.like
 1667.penalty
 1668.match
-1669.ie
 1670.advance
 1671.resort
 1672.destruction
