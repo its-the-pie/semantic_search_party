@@ -317,7 +317,7 @@ def on_guess(data, nlp, output_box, guess_entry, frame):
     result = play_round(guess, data, nlp, output_box) 
    
     if result and result[0] is True: 
-        output_box.after(12000, lambda: start_round(data, nlp, output_box, frame)) # pause to show round stats before new round starts
+        output_box.after(10000, lambda: start_round(data, nlp, output_box, frame)) # pause to show round stats before new round starts
 
 
 
