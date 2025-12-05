@@ -35,7 +35,6 @@ Resources:
         - https://www.pythontutorial.net/tkinter/tkinter-after/ 
         - https://tkdocs.com/tutorial/text.html 
     - tkmacosx document https://pypi.org/project/tkmacosx/ 
-    - Stack Overflow for specific questions that came up in debugging
         
 """
 
