@@ -35,8 +35,8 @@ Resources:
         - https://realpython.com/python-gui-tkinter/ 
         - https://www.pythontutorial.net/tkinter/tkinter-after/ 
         - https://tkdocs.com/tutorial/text.html 
-    - tkmacosx document https://pypi.org/project/tkmacosx/ 
-Note: this program uses Python 3.11 because it was more compatible with spacy
+    - tkmacosx documentation https://pypi.org/project/tkmacosx/ 
+Note: this program uses Python 3.11 because it is more compatible with spacy
         
 """
 
@@ -239,7 +239,7 @@ def play_round(guess, data, nlp, output_box):
             if similarity > max_ss:
                 data["max_ss"] = similarity
 
-# if they hit the restart button after a game
+# if user hits the restart button after a game
 def restart(data, nlp, output_box, frame):
     data["level"] = 1
     data["tp"] = 0
@@ -391,7 +391,7 @@ if __name__ == "__main__":
     word_freq_list, words_only = get_freq()
     bins = make_bins(difficulty_score(scale(word_freq_list)), NL)
 
-    # decided to use a dictionary for game stats and counters because function calls were getting messy 
+    # decided to use a dictionary for game stats because function calls were getting messy 
     data = {
         "NUM_LEVELS": NL,
         "MAX_POINTS": MP,
