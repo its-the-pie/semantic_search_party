@@ -1258,8 +1258,7 @@
 1272.judgment
 1273.clean
 1274.except
-1275.beer
-1276.English
+1276.english
 1277.reference
 1278.tear
 1279.doubt
@@ -1437,7 +1436,6 @@
 1451.involvement
 1452.whenever
 1453.transfer
-1454.attach
 1455.enhance
 1456.impose
 1457.poverty
