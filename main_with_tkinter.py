@@ -448,7 +448,7 @@ if __name__ == "__main__":
     hint_button = Button(frame, text="Hint (-5)", bg="purple", fg="white", font=("Times New Roman", 14), activebackground="indigo", activeforeground="white", highlightbackground="purple", highlightthickness=1,command=lambda: on_hint(data, nlp, output_box), width=10)
     hint_button.grid(row=2, column=0, sticky="ew", padx=5, pady=5)
 
-    forfeit_button = Button(frame, text="Forfeit Round", width=10, bg="orange", fg="white", font=("Times New Roman", 14), activebackground="darkorange", activeforeground="white", highlightbackground="orange", highlightthickness=1,command=lambda: on_forfeit(data, nlp, output_box, frame))
+    forfeit_button = Button(frame, text="Forfeit Round (0 points)", width=10, bg="orange", fg="white", font=("Times New Roman", 14), activebackground="darkorange", activeforeground="white", highlightbackground="orange", highlightthickness=1,command=lambda: on_forfeit(data, nlp, output_box, frame))
     forfeit_button.grid(row=2, column=2, sticky="ew", padx=5, pady=5) 
 
     quit_button = Button(frame, text="Quit", bg="red", fg="white", font=("Times New Roman", 14), activebackground="darkred", activeforeground="white", highlightbackground="red", highlightthickness=1,command=root.destroy, width=10)
