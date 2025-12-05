@@ -3,31 +3,32 @@ Semantic Search Party
 CS 1210 Final Project
 Amelia Partlow, Yasmin Farley, Nina Scarpato
 
-Description: Game like Contexto and Semantle, where user tries to guess a secret word and receives semantic similarity feedback from each guess. 
+Description: Game like Contexto and Semantle, where the player tries to guess a secret word and receives semantic similarity feedback from each guess. 
 Features: 
-    - levels that get harder as they increment
-        - harder means word gets rarer and longer
-            - to assess the rareness of a word, we imported wordfreq
-        - the number of levels is controlled by a constant that can always be changed
+    - Levels that get more difficult as the player progresses
+        - Difficulty is determined by word rarity and length (longer and rarer == harder)
+            - To assess the rarity of a word, we imported wordfreq
+        - The number of levels is controlled by a constant, so it can always be changed
     - Semantic similarity scores between the secret word and each guess
-        - Used spacy to get the scores
-            - imported a spacy pretrained model that includes word vectors
-            -  spacy gets the similarity score by comparing those word vectors using cosine similarity
+        - Used spaCy to get the scores
+            - Imported a spaCy pretrained model that includes word vectors
+            - spaCy gets the similarity score by comparing those word vectors using cosine similarity
     - Tkinter GUI
-    -  Hints and letter reveal buttons to improve user experience
+    - Hints and letter reveal buttons to improve user experience
     - Points system based on user performance 
 
 Libraries:
-    - spacy with the model: en_core_web_lg --> to get semantic similarity
+    - spaCy with the model en_core_web_lg to get semantic similarity
     - wordfreq to determine how common a word is and use that score (higher score meaning more common) to sort level difficulty
     - tkinter for visuals
-    -tkmacosx because tkinter button widgets had issues on macOS
+    - tkmacosx to solve tkinter button widgets' issues on macOS
+
 Resources: 
-    - wordfreq document https://pypi.org/project/wordfreq/
-    - spacy website https://spacy.io/
-    - spacy document https://pypi.org/project/spacy/
-    - spacy tutorial https://codesignal.com/learn/courses/linguistics-for-token-classification-in-spacy/lessons/understanding-semantic-similarity-in-nlp-with-spacy 
-    - tkinter document https://docs.python.org/3/library/tkinter.html 
+    - wordfreq documentation https://pypi.org/project/wordfreq/
+    - spaCy website https://spacy.io/
+    - spaCy documentation https://pypi.org/project/spacy/
+    - spaCy tutorial https://codesignal.com/learn/courses/linguistics-for-token-classification-in-spacy/lessons/understanding-semantic-similarity-in-nlp-with-spacy 
+    - tkinter documentation https://docs.python.org/3/library/tkinter.html 
     - tkinter tutorials
         - https://www.youtube.com/watch?v=epDKamC-V-8 
         - https://www.geeksforgeeks.org/python/python-gui-tkinter/ 
@@ -70,6 +71,7 @@ def scale(word_freq_list):
     max_freq = max(freqs)
     min_freq = min(freqs)
     scaled_freqs = []
+    
     for word, freq in word_freq_list:
         scaled_freq = (freq - min_freq) / (max_freq - min_freq)
         scaled_freqs.append((scaled_freq, word))
