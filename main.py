@@ -221,6 +221,7 @@ def play_round(guess, data, nlp, output_box):
             data["tp"] += data["rp"]
             data["tg"] += data["rg"]
             data["th"] += data["rh"]
+            data["total_letters_given"] += data["letters_given"]
             data["trc"] += 1
             data["level"] += 1
 
@@ -299,7 +300,6 @@ def letter_reveal(data, output_box):
     else:
         given += 1
         data["letters_given"] = given
-        data["total_letters_given"] += 1
         letters = data["sw"][:given]
         remain = len(data["sw"]) - given
         data["rp"] -= 10
@@ -317,7 +317,7 @@ def on_guess(data, nlp, output_box, guess_entry, frame):
     result = play_round(guess, data, nlp, output_box) 
    
     if result and result[0] is True: 
-        output_box.after(10000, lambda: start_round(data, nlp, output_box, frame)) # pause to show round stats before new round starts
+        output_box.after(9000, lambda: start_round(data, nlp, output_box, frame)) # pause to show round stats before new round starts
 
 
 
@@ -333,7 +333,7 @@ def on_forfeit(data, nlp, output_box, frame):
         data["last_lev"] = False
 
     data["rp"] = 0
-    data["rg"] = len(data["already_guessed"])
+    data["rg"] = 0
     data["level"] += 1
     output_box.after(100, lambda: start_round(data, nlp, output_box, frame))
 

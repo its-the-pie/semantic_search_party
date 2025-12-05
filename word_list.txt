@@ -525,7 +525,6 @@
 539.spirit
 540.experience
 541.replace
-542.British
 543.encourage
 544.lot
 548.argument
@@ -1725,7 +1724,6 @@
 1782.radical
 1783.stress
 1784.adapt
-1785.Irish
 1786.honey
 1787.correspondent
 1788.pale
