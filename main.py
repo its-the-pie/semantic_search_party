@@ -35,6 +35,7 @@ Resources:
         - https://www.pythontutorial.net/tkinter/tkinter-after/ 
         - https://tkdocs.com/tutorial/text.html 
     - tkmacosx document https://pypi.org/project/tkmacosx/ 
+Note: this program uses Python 3.11 because it was more compatible with spacy
         
 """
 
