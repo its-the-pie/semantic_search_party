@@ -13,7 +13,7 @@ Features:
         - Used spaCy to get the scores
             - Imported a spaCy pretrained model that includes word vectors
             - spaCy gets the similarity score by comparing those word vectors using cosine similarity
-    - Tkinter GUI
+    - tkinter GUI
     - Hints and letter reveal buttons to improve user experience
     - Points system based on user performance 
 
