@@ -39,7 +39,6 @@ current
 fire
 certainly
 seek
-per
 rest
 deal
 drop
@@ -47,7 +46,6 @@ upon
 push
 nature
 color
-no
 recently
 store
 reduce
@@ -145,7 +143,6 @@ herself
 region
 television
 box
-TV
 training
 pretty
 trade
@@ -164,7 +161,6 @@ arrive
 analysis
 benefit
 name
-sex
 forward
 lawyer
 present
@@ -173,13 +169,10 @@ environmental
 glass
 skill
 sister
-PM
 professor
 operation
 financial
 crime
-stage
-ok
 compare
 authority
 miss
@@ -347,7 +340,6 @@ hotel
 soldier
 reflect
 heavy
-sexual
 cause
 bag
 heat
@@ -376,7 +368,6 @@ item
 reality
 coach
 step
-Mrs
 yard
 beat
 violence
@@ -404,7 +395,6 @@ safe
 agreement
 capital
 mouth
-nor
 victim
 newspaper
 threat
@@ -524,7 +514,6 @@ British
 encourage
 lot
 argument
-by
 once
 camp
 brain
@@ -540,7 +529,6 @@ battle
 beginning
 date
 generally
-African
 very
 sorry
 crisis
@@ -555,7 +543,6 @@ element
 vision
 status
 normal
-Chinese
 ship
 solution
 stone
@@ -598,7 +585,6 @@ future
 farm
 potential
 increase
-European
 presence
 independent
 district
@@ -606,7 +592,6 @@ shape
 reader
 contract
 crowd
-Christian
 express
 apartment
 willing
@@ -755,12 +740,10 @@ view
 grade
 context
 committee
-hey
 mistake
 focus
 location
 clothes
-Indian
 quiet
 dress
 promise
@@ -780,7 +763,6 @@ voter
 mean
 learning
 bus
-hell
 dangerous
 remind
 moral
@@ -880,7 +862,6 @@ paint
 fuel
 leaf
 dry
-Russian
 instruction
 fight
 pool
@@ -965,8 +946,6 @@ code
 somehow
 organize
 jury
-breast
-Iraqi
 human
 acknowledge
 theme
@@ -1028,7 +1007,6 @@ capture
 prefer
 truly
 earth
-Japanese
 chest
 thick
 cash
@@ -1054,13 +1032,11 @@ launch
 file
 sick
 outcome
-ad
 defend
 duty
 sheet
 ought
 ensure
-Catholic
 extremely
 extent
 component
@@ -1083,7 +1059,6 @@ estate
 guide
 circumstance
 snow
-English
 politician
 steal
 pursue
@@ -1095,7 +1070,6 @@ neither
 soil
 surgery
 correct
-Jewish
 blame
 estimate
 due
@@ -1122,7 +1096,6 @@ silence
 rating
 golden
 motion
-German
 gender
 solve
 fee
@@ -1191,7 +1164,7 @@ somewhat
 pour
 stir
 judgment
-beer
+english
 reference
 tear
 doubt
@@ -1276,10 +1249,7 @@ cable
 towards
 expose
 rural
-AIDS
-Jew
 narrow
-cream
 secretary
 gate
 solid
@@ -1351,7 +1321,6 @@ congressional
 involvement
 whenever
 transfer
-attach
 enhance
 impose
 poverty
@@ -1406,14 +1375,12 @@ swing
 crop
 dig
 unlike
-wet
 convention
 embrace
 pan
 consultant
 soon
 administrator
-CEO
 buck
 bind
 enterprise
@@ -1446,7 +1413,6 @@ mad
 award
 criteria
 dealer
-via
 alternative
 utility
 precisely
@@ -1462,13 +1428,9 @@ normally
 phrase
 ingredient
 stake
-Muslim
 fiber
 activist
-Islamic
 snap
-terrorism
-refugee
 incorporate
 hip
 ultimate
@@ -1481,31 +1443,24 @@ graduate
 barrier
 minor
 provision
-killer
 assign
-gang
 developing
 classic
 chemical
 label
 teen
-index
 vacation
 advocate
 draft
 extraordinary
-heaven
 rough
 yell
-pregnant
 distant
 drama
 satellite
 personally
 clock
 chocolate
-Italian
-Canadian
 ceiling
 sweep
 advertising
@@ -1542,7 +1497,6 @@ profile
 mechanism
 disagree
 penalty
-ie
 advance
 resort
 destruction
@@ -1658,7 +1612,6 @@ significance
 vessel
 storage
 flee
-mmhmm
 leather
 distribute
 evolution
@@ -1731,7 +1684,6 @@ proposed
 myth
 sophisticated
 cow
-etc
 standing
 asleep
 tennis
@@ -1752,6 +1704,7 @@ sufficient
 narrative
 photographer
 helicopter
+Catholic
 modest
 provider
 delay
@@ -1877,7 +1830,6 @@ mouse
 rope
 concrete
 prescription
-American
 chase
 brick
 recruit
@@ -1892,7 +1844,6 @@ pie
 sake
 gaze
 courage
-pregnancy
 swear
 defeat
 clue
@@ -1976,7 +1927,6 @@ stem
 surgeon
 acceptable
 physics
-rape
 counsel
 brush
 jeans
@@ -2103,9 +2053,7 @@ temple
 medium
 outdoor
 suck
-and/or
 broadcast
-re
 leap
 random
 wrist
@@ -2176,6 +2124,7 @@ undermine
 freshman
 sweat
 outer
+European
 drunk
 research
 separation
@@ -2239,7 +2188,7 @@ residence
 shame
 meaningful
 sidewalk
-Olympics
+olympics
 technological
 signature
 pleasant
@@ -2307,7 +2256,6 @@ promising
 conscious
 determination
 donor
-hers
 pastor
 acquisition
 pit
@@ -2320,7 +2268,6 @@ decent
 gym
 oral
 clerk
-Israeli
 envelope
 reporting
 destination
@@ -2360,7 +2307,6 @@ hesitate
 flip
 accounting
 bias
-huh
 metaphor
 candle
 judicial
@@ -2381,7 +2327,6 @@ automatically
 chin
 necessity
 confess
-racism
 starter
 banking
 casual
@@ -2415,7 +2360,6 @@ angel
 offering
 rage
 photography
-toilet
 disappointed
 precious
 prohibit
@@ -2461,26 +2405,20 @@ undertake
 softly
 burning
 verbal
-tribal
 ridiculous
 automatic
 diamond
 credibility
 import
-sexually
 way
 divine
 sentiment
 cart
 oversee
 elder
-pro
 inspiration
-Dutch
 quantity
 trailer
-mate
-Greek
 genius
 monument
 bid
@@ -2488,7 +2426,6 @@ quest
 sacrifice
 invitation
 accuracy
-juror
 officially
 broker
 treasure
@@ -2500,11 +2437,9 @@ stiff
 output
 nominee
 extended
-diabetes
 slap
 toxic
 alleged
-jaw
 grief
 mysterious
 rocket
@@ -2513,7 +2448,6 @@ inmate
 tackle
 dynamics
 bow
-ours
 dignity
 carpet
 parental
@@ -2593,7 +2527,6 @@ position
 revelation
 calm
 jewelry
-Cuban
 haul
 concede
 wagon
@@ -2604,7 +2537,6 @@ sheer
 immune
 reliability
 alongside
-bush
 exotic
 fascinating
 secure
@@ -2615,7 +2547,6 @@ drawer
 sheep
 discourage
 coordinator
-ideological
 runner
 secular
 intimate
@@ -2673,7 +2604,6 @@ incredibly
 isolation
 sock
 eleven
-sexy
 entrepreneur
 syndrome
 bureau
@@ -2684,7 +2614,6 @@ utilize
 breeze
 costly
 ambitious
-Christianity
 presumably
 influential
 translation
@@ -2786,7 +2715,6 @@ alike
 placement
 dough
 grandchild
-dam
 reportedly
 surrounding
 outfit
@@ -2855,7 +2783,6 @@ tray
 pioneer
 organizational
 textbook
-uh
 nasty
 shrink
 model
@@ -2924,7 +2851,6 @@ ecosystem
 strictly
 partial
 collar
-weed
 compliance
 streak
 supposedly
@@ -2959,7 +2885,6 @@ commodity
 cure
 mineral
 hunger
-dying
 developmental
 faster
 spare
@@ -2977,7 +2902,6 @@ atop
 toll
 rim
 embarrassed
-fucking
 cling
 isolated
 blink
@@ -3069,7 +2993,6 @@ authorize
 cottage
 driveway
 charm
-sexuality
 loyal
 clay
 balloon
@@ -3090,7 +3013,6 @@ favorable
 steadily
 veteran
 integrated
-ha
 youngster
 premium
 accountability
@@ -3170,9 +3092,3 @@ laundry
 pistol
 plaintiff
 apology
-paradox
-conundrum
-esoteric
-satiate
-exacerbate
-enigma

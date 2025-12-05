@@ -48,7 +48,6 @@
 51.push
 52.nature
 53.color
-54.no
 55.recently
 56.store
 57.reduce
@@ -146,7 +145,6 @@
 149.region
 150.television
 151.box
-152.TV
 153.training
 154.pretty
 155.trade
@@ -175,13 +173,10 @@
 179.answer
 180.skill
 181.sister
-182.PM
 183.professor
 184.operation
 185.financial
 186.crime
-187.stage
-188.ok
 189.compare
 190.authority
 191.miss
@@ -264,7 +259,6 @@
 268.tonight
 269.huge
 270.ball
-271.no
 272.close
 273.finish
 274.yourself
@@ -385,7 +379,6 @@
 390.reality
 391.coach
 392.step
-393.Mrs
 394.yard
 395.beat
 396.violence
@@ -413,7 +406,6 @@
 418.agreement
 419.capital
 420.mouth
-421.nor
 422.victim
 423.newspaper
 424.instead
@@ -458,7 +450,6 @@
 463.southern
 464.fresh
 465.eventually
-466.no
 467.forest
 468.video
 469.global
@@ -538,7 +529,6 @@
 543.encourage
 544.lot
 548.argument
-549.by
 550.once
 551.camp
 552.brain
@@ -554,7 +544,6 @@
 563.beginning
 564.date
 565.generally
-566.African
 567.very
 568.sorry
 569.crisis
@@ -569,7 +558,6 @@
 578.vision
 579.status
 580.normal
-581.Chinese
 582.ship
 583.solution
 584.stone
@@ -615,7 +603,6 @@
 625.potential
 626.increase
 627.middle
-628.European
 629.presence
 630.independent
 631.district
@@ -623,7 +610,6 @@
 633.reader
 635.contract
 636.crowd
-637.Christian
 638.express
 639.apartment
 640.willing
@@ -780,13 +766,11 @@
 791.grade
 792.context
 793.committee
-794.hey
 795.mistake
 796.focus
 797.smile
 798.location
 799.clothes
-800.Indian
 801.quiet
 802.dress
 803.promise
@@ -915,7 +899,6 @@
 927.leaf
 928.direct
 929.dry
-930.Russian
 931.instruction
 932.fight
 933.pool
@@ -1073,7 +1056,6 @@
 1087.prefer
 1088.truly
 1089.earth
-1090.Japanese
 1091.chest
 1092.search
 1093.thick
@@ -1103,7 +1085,6 @@
 1117.file
 1118.sick
 1119.outcome
-1120.ad
 1121.defend
 1122.matter
 1123.judge
@@ -1111,7 +1092,6 @@
 1125.sheet
 1126.ought
 1127.ensure
-1128.Catholic
 1129.extremely
 1130.extent
 1131.component
@@ -1138,7 +1118,6 @@
 1152.guide
 1153.circumstance
 1154.snow
-1155.English
 1156.politician
 1157.steal
 1158.pursue
@@ -1151,7 +1130,6 @@
 1165.influence
 1166.surgery
 1167.correct
-1168.Jewish
 1169.blame
 1170.estimate
 1171.due
@@ -1179,7 +1157,6 @@
 1193.rating
 1194.golden
 1195.motion
-1196.German
 1197.gender
 1198.solve
 1199.fee
@@ -1353,10 +1330,7 @@
 1368.towards
 1369.expose
 1370.rural
-1371.AIDS
-1372.Jew
 1373.narrow
-1374.cream
 1375.secretary
 1376.gate
 1377.solid
@@ -1496,7 +1470,6 @@
 1512.dig
 1513.strike
 1514.unlike
-1515.wet
 1516.convention
 1517.embrace
 1518.supply
@@ -1506,7 +1479,6 @@
 1522.line
 1523.administrator
 1524.date
-1525.CEO
 1526.buck
 1527.bind
 1528.enterprise
@@ -1544,7 +1516,6 @@
 1560.award
 1561.criteria
 1562.dealer
-1563.via
 1564.alternative
 1565.utility
 1566.precisely
@@ -1560,14 +1531,10 @@
 1576.phrase
 1577.ingredient
 1578.stake
-1579.Muslim
 1580.dream
 1581.fiber
 1582.activist
-1583.Islamic
 1584.snap
-1585.terrorism
-1586.refugee
 1587.incorporate
 1588.hip
 1589.ultimate
@@ -1580,24 +1547,19 @@
 1596.barrier
 1597.minor
 1598.provision
-1599.killer
 1600.assign
-1601.gang
 1602.developing
 1603.classic
 1604.chemical
 1605.wave
 1606.label
 1607.teen
-1608.index
 1609.vacation
 1610.advocate
 1611.draft
 1612.extraordinary
-1613.heaven
 1614.rough
 1615.yell
-1616.pregnant
 1617.distant
 1618.drama
 1619.satellite
@@ -1605,8 +1567,6 @@
 1621.wonder
 1622.clock
 1623.chocolate
-1624.Italian
-1625.Canadian
 1626.ceiling
 1627.sweep
 1628.advertising
@@ -1854,7 +1814,6 @@
 1872.myth
 1873.sophisticated
 1874.cow
-1875.etc
 1876.standing
 1877.asleep
 1878.tennis
@@ -2011,7 +1970,6 @@
 2029.rope
 2030.concrete
 2031.prescription
-2032.American
 2033.chase
 2034.document
 2035.brick
@@ -2027,7 +1985,6 @@
 2045.sake
 2046.gaze
 2047.courage
-2048.pregnancy
 2049.swear
 2050.defeat
 2051.clue
@@ -2118,7 +2075,6 @@
 2136.surgeon
 2137.acceptable
 2138.physics
-2139.rape
 2140.counsel
 2141.brush
 2142.jeans
@@ -2262,9 +2218,7 @@
 2280.medium
 2281.outdoor
 2282.suck
-2283.and/or
 2284.broadcast
-2285.re
 2286.leap
 2287.random
 2288.past
@@ -2418,7 +2372,7 @@
 2439.shame
 2440.meaningful
 2441.sidewalk
-2442.Olympics
+2442.olympics
 2443.technological
 2444.signature
 2445.pleasant
@@ -2433,7 +2387,6 @@
 2454.resume
 2455.theoretical
 2456.sodium
-2457.blow
 2458.promotion
 2459.delicate
 2460.forehead
@@ -2491,7 +2444,6 @@
 2512.conscious
 2513.determination
 2514.donor
-2515.hers
 2516.pastor
 2517.frame
 2518.evil
@@ -2506,7 +2458,6 @@
 2527.gym
 2528.oral
 2529.clerk
-2530.Israeli
 2531.envelope
 2532.reporting
 2533.destination
@@ -2554,7 +2505,6 @@
 2575.accounting
 2576.debate
 2577.bias
-2578.huh
 2579.metaphor
 2580.candle
 2581.handle
@@ -2579,7 +2529,6 @@
 2600.trail
 2601.necessity
 2602.confess
-2603.racism
 2604.starter
 2605.interior
 2606.banking
@@ -2595,7 +2544,6 @@
 2616.performer
 2617.intent
 2618.isolate
-2619.pump
 2620.inventory
 2621.productive
 2622.assembly
@@ -2617,14 +2565,12 @@
 2638.rage
 2639.photography
 2640.repair
-2641.toilet
 2642.disappointed
 2643.precious
 2644.prohibit
 2645.representative
 2646.content
 2647.realistic
-2648.Russian
 2649.hidden
 2650.command
 2651.tender
@@ -2673,7 +2619,6 @@
 2694.reserve
 2695.burning
 2696.verbal
-2697.tribal
 2698.ridiculous
 2699.automatic
 2700.diamond
@@ -2687,13 +2632,9 @@
 2709.oversee
 2710.stem
 2712.elder
-2716.pro
 2717.inspiration
-2718.Dutch
 2719.quantity
 2720.trailer
-2721.mate
-2723.Greek
 2724.genius
 2725.monument
 2726.bid
@@ -2701,7 +2642,6 @@
 2728.sacrifice
 2729.invitation
 2730.accuracy
-2731.juror
 2732.officially
 2733.broker
 2734.treasure
@@ -2715,11 +2655,9 @@
 2742.nominee
 2743.extended
 2744.please
-2745.diabetes
 2746.slap
 2747.toxic
 2748.alleged
-2749.jaw
 2750.grief
 2751.mysterious
 2752.rocket
@@ -2728,7 +2666,6 @@
 2755.tackle
 2756.dynamics
 2757.bow
-2758.ours
 2759.senior
 2760.dignity
 2761.carpet
@@ -2819,7 +2756,6 @@
 2846.rent
 2847.calm
 2848.jewelry
-2849.Cuban
 2850.haul
 2851.concede
 2852.trace
@@ -2832,7 +2768,6 @@
 2859.immune
 2860.reliability
 2862.alongside
-2863.bush
 2864.exotic
 2865.fascinating
 2866.secure
@@ -2844,7 +2779,6 @@
 2872.sheep
 2873.discourage
 2874.coordinator
-2875.ideological
 2876.runner
 2877.secular
 2878.intimate
@@ -2919,7 +2853,6 @@
 2948.breeze
 2949.costly
 2950.ambitious
-2951.Christianity
 2952.presumably
 2953.influential
 2954.translation
@@ -3018,7 +2951,6 @@
 3047.upstairs
 3048.dried
 3049.minimum
-3050.pro
 3051.conservation
 3052.shove
 3053.backyard
@@ -3031,7 +2963,6 @@
 3060.placement
 3061.dough
 3062.grandchild
-3063.dam
 3064.reportedly
 3065.surrounding
 3066.outfit
@@ -3107,7 +3038,6 @@
 3136.pioneer
 3137.organizational
 3138.textbook
-3139.uh
 3140.nasty
 3141.shrink
 3142.model
@@ -3138,7 +3068,6 @@
 3167.chunk
 3168.closest
 3169.discount
-3170.no
 3171.ladder
 3172.jungle
 3173.migration
@@ -3181,7 +3110,6 @@
 3210.strictly
 3211.partial
 3212.collar
-3213.weed
 3214.compliance
 3215.streak
 3216.supposedly
@@ -3218,12 +3146,10 @@
 3247.cure
 3248.mineral
 3249.hunger
-3250.dying
 3251.developmental
 3252.faster
 3253.spare
 3254.halfway
-3255.cure
 3256.equality
 3257.cemetery
 3258.harassment
@@ -3237,7 +3163,6 @@
 3266.toll
 3267.rim
 3268.embarrassed
-3269.fucking
 3270.cling
 3271.isolated
 3272.blink
@@ -3362,7 +3287,6 @@
 3392.steadily
 3393.veteran
 3394.integrated
-3395.ha
 3396.youngster
 3397.broadcast
 3398.premium
